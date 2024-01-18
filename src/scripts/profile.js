@@ -45,7 +45,7 @@ const showError = (error) => {
 
 const clearDataAndRedirect = () => {
   localStorage.clear();
-  window.location.replace("/index.html");
+  window.location.replace("../../index.html");
 };
 
 const button = document.querySelector(".profile__change-user--button");
